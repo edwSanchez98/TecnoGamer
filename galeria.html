@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>TecnoGames</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Pagina de informacion de videojuegos">
+		<meta name="keywords" content="Pagina de información y noticias de videojuegos">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+	<body>
+
+		<header>
+			<div id="subheader">
+				<div id="logotipo"><p><a href="principal.html">TecnoGames</a></p></div>
+				<nav>
+					<ul>
+						<li><a href="principal.html">Inicio</a></li>
+						<li><a href="galeria.html">Galeria</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+			<section id="galeria">
+	            <div id="container">
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/call 4.jpg"/>
+	                    <span>Call of duty #1</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/fifa 2.jpg"/>
+	                    <span>Fifa 2018 #1</span>
+	                </div>
+
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/fifa 3.jpg"/>
+	                    <span>Fifa 2018 #2</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/good 1.jpg"/>
+	                    <span>Dios de la guerra #1</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/resident 1.jpg"/>
+	                    <span>Resident evil #1</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/resident 2.jpg"/>
+	                    <span>Resident evil #2</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/halo 1.jpg"/>
+	                    <span>Halo #1</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/good 2.jpg"/>
+	                    <span>Dios de la guerra #2</span>
+	                </div>
+
+	                <div onclick="galery(this)">
+	                    <img src="imagenes/gears 2.jpg"/>
+	                    <span>Gears of war</span>
+	                </div>
+  
+        		</div>
+        	</section>
+        			<script>
+                    function galery(e) {
+                        if (e.classList.length == 0)
+                            e.classList.add("select")
+                        else
+                            e.classList.remove("select")
+                    }
+        			</script>
+
+
+        	<section id="wrap">
+			<footer>
+				<section id="acerca-de">
+					<article>
+						<hgroup><h3>Acerca de ...</h3></hgroup>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse egestas mollis libero eu pellentesque. Vestibulum quis nisi metus. Morbi sollicitudin lobortis felis. Proin posuere sapien in lorem ultrices, ut mollis erat facilisis.</p>
+					</article>
+				</section>
+
+				<section id="redes-s">
+					<div class="email"><a href=""></a></div>
+					<div class="twitter"><a href=""></a></div>
+					<div class="youtube"><a href=""></a></div>
+					<div class="facebook"><a href=""></a></div>
+				</section>
+
+			</footer>
+
+			<div id="copyright"><p>Donec placerat, nunc vel sagittis interdum, mauris dolor aliquet lacus, ac fermentum ex quam sed dolor.</p></div>
+			</section>
+	</body>
+</html>
