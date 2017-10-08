@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>TecnoGames</title>
+		<title>TecnoGames: Galeria</title>
 		<meta charset="UTF-8">
 		<meta name="description" content="Pagina de informacion de videojuegos">
 		<meta name="keywords" content="Pagina de información y noticias de videojuegos">
@@ -16,12 +16,13 @@
 					<ul>
 						<li><a href="index.html">Inicio</a></li>
 						<li><a href="galeria.html">Galeria</a></li>
-						<li><a href="#">Contacto</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
+		<section id="wrap">
 			<section id="galeria">
 	            <div id="container">
 	                <div onclick="galery(this)">
@@ -71,7 +72,7 @@
 	                </div>
   
         		</div>
-        	</section>
+        	
         			<script>
                     function galery(e) {
                         if (e.classList.length == 0)
@@ -80,9 +81,9 @@
                             e.classList.remove("select")
                     }
         			</script>
+			</section>
 
-
-        	<section id="wrap">
+        	
 			<footer>
 				<section id="acerca-de">
 					<article>
